@@ -1,8 +1,10 @@
+import dotenv from 'dotenv'
+dotenv.config()
+
 import express from 'express'
 import bodyParser from 'body-parser'
 import ejsLayouts from 'express-ejs-layouts'
 import path from 'path'
-import dotenv from 'dotenv'
 import session from 'express-session'
 import passport from 'passport'
 import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
@@ -12,7 +14,6 @@ import router from "./routes/routes.js"
 import authrouter from "./routes/authRoutes.js"
 
 //CONFIG env
-dotenv.config()
 const app = express()
 
 //SESSION
