@@ -14,5 +14,6 @@ reCAPTCHA Integration: Extra points for enabling reCAPTCHA on both sign up and l
 To get google client ID and secret key:
 
 https://console.cloud.google.com/apis/credentials?highlightClient=240308855541-ldqil44inveveseuul81c46tn8c0abb1.apps.googleusercontent.com&project=blissful-axiom-424116-k6
+
 To get reCAPTCHA from google:
 https://www.google.com/recaptcha/admin/site/702885362
