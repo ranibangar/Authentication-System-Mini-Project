@@ -10,3 +10,9 @@ Google Login/Signup: Users can sign in or sign up using their Google accounts.he
 Forgot Password: Users can reset their passwords via email.
 Password Strength Validation: Notifications are displayed for unmatching passwords during sign up and incorrect passwords during sign in.
 reCAPTCHA Integration: Extra points for enabling reCAPTCHA on both sign up and log in pages
+
+To get google client ID and secret key:
+
+https://console.cloud.google.com/apis/credentials?highlightClient=240308855541-ldqil44inveveseuul81c46tn8c0abb1.apps.googleusercontent.com&project=blissful-axiom-424116-k6
+To get reCAPTCHA from google:
+https://www.google.com/recaptcha/admin/site/702885362
